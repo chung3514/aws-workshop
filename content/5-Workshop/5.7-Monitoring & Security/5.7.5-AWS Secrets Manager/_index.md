@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.7.5 Protect Secrets with AWS Secrets Manager
-
 ## Overview
 
 Applications often require sensitive information such as:

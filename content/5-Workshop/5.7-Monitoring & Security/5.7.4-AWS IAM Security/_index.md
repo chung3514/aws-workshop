@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.7.4 Secure Access with AWS Identity and Access Management (IAM)
-
 ## Overview
 
 AWS Identity and Access Management (IAM) enables secure access control for AWS resources.

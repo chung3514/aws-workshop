@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.4.1 Tạo Amazon Cognito User Pool
-
 ## Tổng quan
 
 Amazon Cognito là dịch vụ quản lý danh tính và xác thực người dùng (Authentication & Authorization) của AWS.

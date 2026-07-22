@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.6.3 Chuyển dữ liệu sang định dạng Apache Parquet
-
 ## Tổng quan
 
 Các tập dữ liệu vừa tải lên Amazon S3 đang ở định dạng CSV.

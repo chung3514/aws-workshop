@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.8.3 Kiểm thử AI Processing Pipeline
-
 ## Tổng quan
 
 Sau khi Backend API lưu dữ liệu vào Amazon RDS, hệ thống sẽ gửi một thông điệp đến Amazon SQS để kích hoạt quá trình xử lý AI.

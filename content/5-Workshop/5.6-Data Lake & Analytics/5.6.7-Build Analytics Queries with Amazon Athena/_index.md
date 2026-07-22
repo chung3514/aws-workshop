@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.6.7 Build Analytics Queries with Amazon Athena
-
 ## Overview
 
 After the datasets have been stored in Amazon S3, registered in the AWS Glue Data Catalog, and optimized using Apache Parquet and partitioning, the next step is to analyze them with Amazon Athena.

@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.5.1 Tạo AWS Glue Data Catalog
-
 ## Tổng quan
 
 AWS Glue Data Catalog là kho lưu trữ metadata (siêu dữ liệu) tập trung của AWS. Dịch vụ này giúp quản lý thông tin về cấu trúc dữ liệu được lưu trữ trong Amazon S3 để các dịch vụ như Amazon Athena, Amazon EMR và Amazon Redshift có thể truy cập và phân tích dữ liệu.

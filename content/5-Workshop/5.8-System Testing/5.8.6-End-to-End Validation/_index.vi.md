@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.8.6 Kiểm thử End-to-End
-
 ## Tổng quan
 
 Đây là bước cuối cùng của quá trình kiểm thử hệ thống.

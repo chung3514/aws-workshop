@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.3.3 Configure Security Groups
-
 ## Overview
 
 After creating the VPC and Subnets, the next step is configuring **Amazon EC2 Security Groups**.

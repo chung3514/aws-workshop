@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.3.1 Create Amazon VPC
-
 ## Overview
 
 Amazon Virtual Private Cloud (Amazon VPC) enables you to create an isolated virtual network in AWS where cloud resources can securely communicate.

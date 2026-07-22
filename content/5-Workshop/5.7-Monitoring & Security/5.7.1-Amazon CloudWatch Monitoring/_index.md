@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.7.1 Monitor the System with Amazon CloudWatch
-
 ## Overview
 
 After deploying the AI Supply Chain Control Tower on AWS, continuous monitoring is essential to ensure the application remains healthy and performs as expected.

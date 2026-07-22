@@ -6,8 +6,6 @@ chapter: false
 pre: "<b>5.3. </b>"
 ---
 
-# Infrastructure Deployment
-
 ## Overview
 
 In this section, we will provision the AWS infrastructure required for the **AI Supply Chain Control Tower**.

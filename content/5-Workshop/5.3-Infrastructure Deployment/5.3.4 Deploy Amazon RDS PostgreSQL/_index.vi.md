@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.3.4 Triển khai Amazon RDS PostgreSQL
-
 ## Tổng quan
 
 Amazon Relational Database Service (Amazon RDS) là dịch vụ cơ sở dữ liệu được quản lý hoàn toàn (Managed Database Service) của AWS.

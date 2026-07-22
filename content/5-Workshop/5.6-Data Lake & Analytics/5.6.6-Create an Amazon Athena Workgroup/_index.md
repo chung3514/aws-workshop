@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.6.6 Create an Amazon Athena Workgroup
-
 ## Overview
 
 Amazon Athena provides **Workgroups** to separate workloads, manage query settings, and control costs.

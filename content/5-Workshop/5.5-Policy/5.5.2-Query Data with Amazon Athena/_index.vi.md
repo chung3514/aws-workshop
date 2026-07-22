@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.5.2 Truy vấn dữ liệu bằng Amazon Athena
-
 ## Tổng quan
 
 Amazon Athena là dịch vụ phân tích dữ liệu không máy chủ (Serverless Interactive Query Service) cho phép thực hiện truy vấn SQL trực tiếp trên dữ liệu lưu trữ trong Amazon S3 mà không cần xây dựng hoặc quản lý máy chủ cơ sở dữ liệu.

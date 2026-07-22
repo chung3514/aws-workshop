@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.7.6 Mã hóa dữ liệu bằng AWS Key Management Service (AWS KMS)
-
 ## Tổng quan
 
 Mã hóa dữ liệu là một trong những biện pháp quan trọng để bảo vệ thông tin trong môi trường điện toán đám mây.

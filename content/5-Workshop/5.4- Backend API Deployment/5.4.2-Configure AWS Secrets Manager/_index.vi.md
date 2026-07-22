@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.4.2 Cấu hình AWS Secrets Manager
-
 ## Tổng quan
 
 AWS Secrets Manager là dịch vụ quản lý bí mật (Secrets Management) của AWS, cho phép lưu trữ và quản lý an toàn các thông tin nhạy cảm như:

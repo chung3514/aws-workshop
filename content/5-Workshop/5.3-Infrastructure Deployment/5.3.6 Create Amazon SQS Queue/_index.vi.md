@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.3.6 Tạo Amazon SQS Queue
-
 ## Tổng quan
 
 Amazon Simple Queue Service (Amazon SQS) là dịch vụ hàng đợi thông điệp (Message Queue) được quản lý hoàn toàn bởi AWS.

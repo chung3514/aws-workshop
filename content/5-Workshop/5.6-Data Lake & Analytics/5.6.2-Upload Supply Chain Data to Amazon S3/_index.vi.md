@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.6.1 Tổ chức Amazon S3 Data Lake
-
 ## Tổng quan
 
 Amazon S3 đóng vai trò là kho lưu trữ dữ liệu tập trung của hệ thống **AI Supply Chain Control Tower**.

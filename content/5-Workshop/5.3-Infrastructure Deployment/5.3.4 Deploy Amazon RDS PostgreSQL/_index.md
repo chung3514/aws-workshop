@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.3.4 Deploy Amazon RDS PostgreSQL
-
 ## Overview
 
 Amazon Relational Database Service (Amazon RDS) is a fully managed relational database service that simplifies database deployment, operation, and scaling in the cloud.

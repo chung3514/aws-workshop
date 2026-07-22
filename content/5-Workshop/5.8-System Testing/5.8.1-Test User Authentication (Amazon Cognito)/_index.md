@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.8.1 Test User Authentication with Amazon Cognito
-
 ## Overview
 
 Before users can access the AI Supply Chain Control Tower, they must authenticate through Amazon Cognito.

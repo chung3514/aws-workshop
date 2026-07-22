@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.8.5 Test Dashboard
-
 ## Overview
 
 The Dashboard is the primary interface of the AI Supply Chain Control Tower, providing operational metrics and AI-generated insights.

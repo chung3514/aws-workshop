@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.3.2 Create Public and Private Subnets
-
 ## Overview
 
 After creating the Amazon VPC, the next step is to divide the network into **Public** and **Private Subnets**.

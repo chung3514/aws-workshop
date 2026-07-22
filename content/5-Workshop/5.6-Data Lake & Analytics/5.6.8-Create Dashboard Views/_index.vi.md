@@ -5,8 +5,6 @@ weight: 8
 chapter: false
 ---
 
-# 5.6.8 Tạo Dashboard Views
-
 ## Tổng quan
 
 Sau khi xây dựng các truy vấn phân tích, bước tiếp theo là tạo các **View** trong Amazon Athena.

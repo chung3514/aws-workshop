@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.3.5 Tạo Amazon S3 Data Lake
-
 ## Tổng quan
 
 Amazon Simple Storage Service (Amazon S3) là dịch vụ lưu trữ đối tượng (Object Storage) của AWS với khả năng mở rộng gần như không giới hạn.

@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.7.2 Configure CloudWatch Alarms
-
 ## Overview
 
 Amazon CloudWatch Alarms continuously monitor AWS service metrics and detect abnormal operating conditions.

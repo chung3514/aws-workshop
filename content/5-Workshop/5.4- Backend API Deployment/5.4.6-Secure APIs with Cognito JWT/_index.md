@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.4.6 Secure APIs with Amazon Cognito JWT
-
 ## Overview
 
 To secure backend services, Amazon Cognito issues JSON Web Tokens (JWT) after successful user authentication.
@@ -55,7 +53,7 @@ After completing this section, you will:
 3. Configure:
    - Issuer URL
    - Audience (App Client ID)
-   
+
 ![API Gateway Dashboard](/images/5-Workshop/5.4-S3-onprem/5.4.4.png)
 
 4. Attach the authorizer to protected routes.

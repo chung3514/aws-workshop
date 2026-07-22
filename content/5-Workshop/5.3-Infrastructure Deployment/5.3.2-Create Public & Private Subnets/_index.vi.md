@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.3.2 Tạo Public và Private Subnets
-
 ## Tổng quan
 
 Sau khi tạo Amazon VPC, bước tiếp theo là chia mạng thành các **Public Subnet** và **Private Subnet**.

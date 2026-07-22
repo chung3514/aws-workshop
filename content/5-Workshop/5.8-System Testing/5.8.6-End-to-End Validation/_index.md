@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.8.6 End-to-End Validation
-
 ## Overview
 
 This is the final testing phase of the workshop.

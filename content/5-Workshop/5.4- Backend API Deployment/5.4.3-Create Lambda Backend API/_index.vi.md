@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.4.3 Triển khai Lambda Backend API
-
 ## Tổng quan
 
 AWS Lambda là dịch vụ **Function as a Service (FaaS)** của AWS, cho phép thực thi mã nguồn mà không cần quản lý máy chủ.

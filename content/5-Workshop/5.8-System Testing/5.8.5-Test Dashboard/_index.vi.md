@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.8.5 Kiểm thử Dashboard
-
 ## Tổng quan
 
 Dashboard là giao diện chính của AI Supply Chain Control Tower, cung cấp thông tin tổng quan về chuỗi cung ứng và các kết quả phân tích AI.

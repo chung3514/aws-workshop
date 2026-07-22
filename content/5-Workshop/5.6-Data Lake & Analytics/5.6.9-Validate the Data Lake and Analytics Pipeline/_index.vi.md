@@ -5,8 +5,6 @@ weight: 9
 chapter: false
 ---
 
-# 5.6.9 Kiểm tra và xác thực hệ thống phân tích dữ liệu
-
 ## Tổng quan
 
 Sau khi hoàn thành toàn bộ quy trình xây dựng Data Lake, bước cuối cùng là kiểm tra và xác thực toàn bộ hệ thống.

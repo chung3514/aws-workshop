@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.3.6 Create Amazon SQS Queue
-
 ## Overview
 
 Amazon Simple Queue Service (Amazon SQS) is a fully managed message queuing service that enables asynchronous communication between distributed application components.

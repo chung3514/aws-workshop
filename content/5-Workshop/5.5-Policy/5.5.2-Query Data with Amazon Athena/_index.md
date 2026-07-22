@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.5.2 Query Data with Amazon Athena
-
 ## Overview
 
 Amazon Athena is a serverless interactive query service that enables SQL queries directly against data stored in Amazon S3.

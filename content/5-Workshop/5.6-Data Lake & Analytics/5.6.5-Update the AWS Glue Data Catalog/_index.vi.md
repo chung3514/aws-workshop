@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.6.5 Cập nhật AWS Glue Data Catalog
-
 ## Tổng quan
 
 Sau khi dữ liệu đã được chuyển sang định dạng Apache Parquet và phân vùng trong Amazon S3, bước tiếp theo là cập nhật **AWS Glue Data Catalog**.

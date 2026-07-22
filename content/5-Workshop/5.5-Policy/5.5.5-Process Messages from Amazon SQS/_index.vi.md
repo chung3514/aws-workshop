@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.5.5 Xử lý thông điệp từ Amazon SQS
-
 ## Tổng quan
 
 Amazon SQS được sử dụng để truyền các yêu cầu phân tích AI từ Backend Lambda đến AI Worker Lambda theo cơ chế bất đồng bộ.

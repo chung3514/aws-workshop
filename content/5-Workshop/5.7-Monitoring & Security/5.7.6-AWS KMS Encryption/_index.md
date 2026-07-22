@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.7.6 Encrypt Data Using AWS Key Management Service (AWS KMS)
-
 ## Overview
 
 Encryption is a fundamental security control for protecting sensitive data in the cloud.

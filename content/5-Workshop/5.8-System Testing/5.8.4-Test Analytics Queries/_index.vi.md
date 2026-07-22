@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.8.4 Kiểm thử truy vấn phân tích với Amazon Athena
-
 ## Tổng quan
 
 Amazon Athena là dịch vụ phân tích không máy chủ (serverless) cho phép truy vấn dữ liệu trực tiếp trên Amazon S3 bằng SQL.

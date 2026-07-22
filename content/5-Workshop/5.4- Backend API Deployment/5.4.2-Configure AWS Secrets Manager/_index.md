@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.4.2 Configure AWS Secrets Manager
-
 ## Overview
 
 AWS Secrets Manager is a managed service for securely storing and managing sensitive information such as database credentials, API keys, OAuth tokens, and encryption secrets.

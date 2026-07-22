@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.5.6 Store AI Analysis Results
-
 ## Overview
 
 After the AI Worker Lambda receives analysis results from Amazon Bedrock, the generated insights are stored in Amazon RDS PostgreSQL.

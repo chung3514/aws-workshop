@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.5.4 Tích hợp Amazon Bedrock
-
 ## Tổng quan
 
 Amazon Bedrock là dịch vụ AI tạo sinh (Generative AI) được quản lý hoàn toàn bởi AWS, cho phép ứng dụng sử dụng nhiều Foundation Models (FMs) từ Amazon và các đối tác mà không cần triển khai hay quản lý hạ tầng Machine Learning.

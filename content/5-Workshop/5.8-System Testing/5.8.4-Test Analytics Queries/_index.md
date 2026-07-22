@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.8.4 Test Analytics Queries with Amazon Athena
-
 ## Overview
 
 Amazon Athena is a serverless query service that allows you to analyze data stored in Amazon S3 using standard SQL.

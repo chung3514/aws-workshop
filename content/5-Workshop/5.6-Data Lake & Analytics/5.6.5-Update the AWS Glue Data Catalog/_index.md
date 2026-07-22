@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.6.5 Update the AWS Glue Data Catalog
-
 ## Overview
 
 After converting the datasets to Apache Parquet and organizing them into partitions, the next step is to update the **AWS Glue Data Catalog**.

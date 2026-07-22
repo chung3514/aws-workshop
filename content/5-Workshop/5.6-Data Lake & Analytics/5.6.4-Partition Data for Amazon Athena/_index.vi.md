@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.6.4 Phân vùng dữ liệu cho Amazon Athena
-
 ## Tổng quan
 
 Sau khi chuyển dữ liệu từ CSV sang Apache Parquet, bước tiếp theo là tổ chức dữ liệu thành các phân vùng.

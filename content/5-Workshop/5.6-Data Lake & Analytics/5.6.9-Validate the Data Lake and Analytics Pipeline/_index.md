@@ -5,8 +5,6 @@ weight: 9
 chapter: false
 ---
 
-# 5.6.9 Validate the Data Lake and Analytics Pipeline
-
 ## Overview
 
 After completing the Data Lake implementation, the final step is to validate the entire analytics pipeline.

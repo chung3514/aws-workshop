@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.4.5 Connect Lambda to Amazon RDS PostgreSQL
-
 ## Overview
 
 This section connects the backend Lambda function to Amazon RDS PostgreSQL using credentials securely stored in AWS Secrets Manager.

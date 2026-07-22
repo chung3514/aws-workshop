@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.3.7 Create IAM Roles for AWS Lambda
-
 ## Overview
 
 AWS Identity and Access Management (IAM) enables secure access control for AWS resources.

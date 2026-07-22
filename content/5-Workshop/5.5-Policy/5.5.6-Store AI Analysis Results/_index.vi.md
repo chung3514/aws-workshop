@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.5.6 Lưu kết quả phân tích AI
-
 ## Tổng quan
 
 Sau khi AI Worker Lambda hoàn thành việc truy vấn dữ liệu bằng Amazon Athena và nhận kết quả phân tích từ Amazon Bedrock, bước tiếp theo là lưu kết quả vào Amazon RDS PostgreSQL.

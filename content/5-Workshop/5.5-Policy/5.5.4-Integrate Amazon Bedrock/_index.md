@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.5.4 Integrate Amazon Bedrock
-
 ## Overview
 
 Amazon Bedrock enables applications to access foundation models through a fully managed service without managing machine learning infrastructure.

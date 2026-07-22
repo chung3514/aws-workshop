@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.4.3 Deploy Lambda Backend API
-
 ## Overview
 
 AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers.

@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.5.3 Deploy AI Worker Lambda
-
 ## Overview
 
 The AI Worker Lambda is responsible for processing asynchronous AI requests received from Amazon SQS.

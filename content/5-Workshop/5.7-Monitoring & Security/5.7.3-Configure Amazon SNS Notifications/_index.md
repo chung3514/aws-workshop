@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.7.3 Configure Amazon SNS Notifications
-
 ## Overview
 
 In the previous section, you created CloudWatch Alarms to monitor your AWS resources. However, administrators should not have to manually check the AWS Console for alarm status.

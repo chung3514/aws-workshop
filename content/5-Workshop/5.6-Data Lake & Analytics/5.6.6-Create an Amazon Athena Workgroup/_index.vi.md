@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.6.6 Tạo Amazon Athena Workgroup
-
 ## Tổng quan
 
 Amazon Athena hỗ trợ **Workgroup** để quản lý người dùng, kiểm soát chi phí và cấu hình truy vấn.

@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.4.4 Cấu hình Amazon API Gateway
-
 ## Tổng quan
 
 Amazon API Gateway là dịch vụ quản lý API của AWS, cho phép tạo, triển khai và bảo vệ các RESTful API hoặc HTTP API.

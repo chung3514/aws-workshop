@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.8.2 Kiểm thử Backend API
-
 ## Tổng quan
 
 Sau khi người dùng đăng nhập thành công và nhận được JWT Access Token từ Amazon Cognito, bước tiếp theo là kiểm tra Backend API.

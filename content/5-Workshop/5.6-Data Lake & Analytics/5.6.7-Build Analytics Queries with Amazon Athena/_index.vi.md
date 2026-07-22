@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.6.7 Xây dựng các truy vấn phân tích với Amazon Athena
-
 ## Tổng quan
 
 Sau khi dữ liệu đã được lưu trong Amazon S3, đăng ký trong AWS Glue Data Catalog và tối ưu bằng Apache Parquet cùng Partitioning, bước tiếp theo là khai thác dữ liệu bằng Amazon Athena.

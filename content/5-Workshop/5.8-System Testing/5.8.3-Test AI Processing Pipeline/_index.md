@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.8.3 Test AI Processing Pipeline
-
 ## Overview
 
 After the Backend API stores data in Amazon RDS, it publishes a message to Amazon SQS to trigger the AI processing workflow.

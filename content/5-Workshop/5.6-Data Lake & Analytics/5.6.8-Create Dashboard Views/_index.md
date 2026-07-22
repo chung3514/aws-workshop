@@ -5,8 +5,6 @@ weight: 8
 chapter: false
 ---
 
-# 5.6.8 Create Dashboard Views
-
 ## Overview
 
 After building analytical SQL queries, the next step is to create reusable **Views** in Amazon Athena.

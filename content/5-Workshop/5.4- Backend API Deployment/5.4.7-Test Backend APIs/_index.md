@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.4.7 Test Backend APIs
-
 ## Overview
 
 This section validates the complete backend workflow of the AI Supply Chain Control Tower using Postman.

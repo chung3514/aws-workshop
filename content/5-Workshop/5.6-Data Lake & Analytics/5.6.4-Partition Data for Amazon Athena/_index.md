@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.6.4 Partition Data for Amazon Athena
-
 ## Overview
 
 After converting the CSV datasets to Apache Parquet, the next step is to organize the data into partitions.

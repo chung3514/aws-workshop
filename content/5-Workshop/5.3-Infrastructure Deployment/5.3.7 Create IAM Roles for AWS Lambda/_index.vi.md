@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.3.7 Tạo IAM Roles cho Lambda
-
 ## Tổng quan
 
 AWS Identity and Access Management (IAM) là dịch vụ quản lý danh tính và quyền truy cập trong AWS.

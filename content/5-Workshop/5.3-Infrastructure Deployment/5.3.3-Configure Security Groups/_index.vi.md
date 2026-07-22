@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.3.3 Cấu hình Security Groups
-
 ## Tổng quan
 
 Sau khi hoàn thành việc tạo VPC và Subnets, bước tiếp theo là cấu hình **Amazon EC2 Security Groups**.

@@ -5,8 +5,6 @@ weight: 2
 chapter: false
 ---
 
-# 5.8.2 Test Backend API
-
 ## Overview
 
 After users successfully authenticate with Amazon Cognito, the next step is to validate the Backend API.

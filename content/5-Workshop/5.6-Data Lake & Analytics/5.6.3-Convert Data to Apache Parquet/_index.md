@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.6.3 Convert Data to Apache Parquet
-
 ## Overview
 
 The datasets uploaded to Amazon S3 are currently stored in CSV format.

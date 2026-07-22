@@ -5,8 +5,6 @@ weight: 6
 chapter: false
 ---
 
-# 5.4.6 Bảo vệ API bằng Amazon Cognito JWT
-
 ## Tổng quan
 
 Sau khi Backend API được triển khai, bước tiếp theo là bảo vệ các API khỏi những truy cập trái phép.

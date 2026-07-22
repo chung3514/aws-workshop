@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.7.7 Kiểm toán tài nguyên AWS với AWS CloudTrail
-
 ## Tổng quan
 
 AWS CloudTrail là dịch vụ ghi nhận lịch sử hoạt động của tài khoản AWS bằng cách lưu lại các API call được thực hiện thông qua:

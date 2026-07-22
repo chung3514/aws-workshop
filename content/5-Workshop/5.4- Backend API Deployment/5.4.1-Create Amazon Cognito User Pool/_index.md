@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.4.1 Create Amazon Cognito User Pool
-
 ## Overview
 
 Amazon Cognito is AWS's managed identity and user authentication service.

@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.7.1 Giám sát hệ thống với Amazon CloudWatch
-
 ## Tổng quan
 
 Sau khi triển khai hệ thống AI Supply Chain Control Tower trên AWS, việc giám sát tài nguyên và ứng dụng là rất quan trọng để đảm bảo hệ thống luôn hoạt động ổn định.

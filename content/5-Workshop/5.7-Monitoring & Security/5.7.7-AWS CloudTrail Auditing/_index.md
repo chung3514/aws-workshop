@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.7.7 Audit AWS Resources with AWS CloudTrail
-
 ## Overview
 
 AWS CloudTrail records AWS account activity by capturing API calls made through:

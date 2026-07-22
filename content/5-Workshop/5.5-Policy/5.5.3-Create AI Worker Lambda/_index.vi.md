@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.5.3 Triển khai AI Worker Lambda
-
 ## Tổng quan
 
 Trong kiến trúc AI Supply Chain Control Tower, AI Worker Lambda là thành phần chịu trách nhiệm xử lý các yêu cầu phân tích dữ liệu được gửi từ Amazon SQS.

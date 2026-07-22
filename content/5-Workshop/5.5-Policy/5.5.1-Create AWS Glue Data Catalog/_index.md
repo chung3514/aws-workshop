@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.5.1 Create AWS Glue Data Catalog
-
 ## Overview
 
 AWS Glue Data Catalog is a centralized metadata repository that stores information about datasets located in Amazon S3.

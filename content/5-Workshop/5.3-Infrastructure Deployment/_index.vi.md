@@ -6,8 +6,6 @@ chapter: false
 pre: "<b>5.3. </b>"
 ---
 
-# Triển khai hạ tầng AWS
-
 ## Tổng quan
 
 Trong phần này, chúng ta sẽ xây dựng toàn bộ hạ tầng AWS cho hệ thống **AI Supply Chain Control Tower**.

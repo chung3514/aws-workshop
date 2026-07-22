@@ -5,8 +5,6 @@ weight: 3
 chapter: false
 ---
 
-# 5.7.3 Cấu hình thông báo với Amazon SNS
-
 ## Tổng quan
 
 Trong phần trước, bạn đã tạo các CloudWatch Alarm để giám sát hệ thống. Tuy nhiên, nếu không có cơ chế thông báo, quản trị viên sẽ phải chủ động đăng nhập vào AWS Console để kiểm tra trạng thái của các Alarm.

@@ -5,8 +5,6 @@ weight: 4
 chapter: false
 ---
 
-# 5.4.4 Configure Amazon API Gateway
-
 ## Overview
 
 Amazon API Gateway is a fully managed service for creating, publishing, maintaining, monitoring, and securing APIs at any scale.

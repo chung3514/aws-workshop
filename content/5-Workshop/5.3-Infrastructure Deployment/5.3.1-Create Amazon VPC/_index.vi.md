@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 ---
 
-# 5.3.1 Tạo Amazon VPC
-
 ## Tổng quan
 
 Amazon Virtual Private Cloud (Amazon VPC) là dịch vụ cho phép bạn tạo một mạng riêng biệt trên AWS để triển khai các tài nguyên như EC2, RDS, Lambda (thông qua VPC), và nhiều dịch vụ khác.

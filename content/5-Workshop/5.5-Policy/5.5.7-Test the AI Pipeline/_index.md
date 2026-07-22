@@ -5,8 +5,6 @@ weight: 7
 chapter: false
 ---
 
-# 5.5.7 Test the AI Pipeline
-
 ## Overview
 
 This section validates the complete end-to-end AI workflow of the AI Supply Chain Control Tower.

@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.4.5 Kết nối Lambda với Amazon RDS PostgreSQL
-
 ## Tổng quan
 
 Sau khi đã triển khai Amazon RDS PostgreSQL, AWS Lambda và AWS Secrets Manager, bước tiếp theo là cấu hình để Lambda có thể kết nối an toàn đến cơ sở dữ liệu.

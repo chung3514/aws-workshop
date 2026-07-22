@@ -5,8 +5,6 @@ weight: 5
 chapter: false
 ---
 
-# 5.5.5 Process Messages from Amazon SQS
-
 ## Overview
 
 Amazon SQS decouples the Backend Lambda from the AI Worker Lambda by enabling asynchronous request processing.
