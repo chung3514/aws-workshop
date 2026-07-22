@@ -5,53 +5,38 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Participate in the FCAJ Community Day to network and learn from the AWS community.
+- Understand Amazon CloudFront and its role in content delivery.
+- Explore the architecture of an AI system on AWS before studying AI Workflow and Amazon Bedrock.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Completed This Week:
 
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| 2 | - Participate in **FCAJ Community Day** <br>&emsp;+ Network with the AWS community <br>&emsp;+ Learn from real-world AWS implementation experiences | 18/05/2026 | 18/05/2026 | FCAJ Community Day |
+| 3 | - Learn about Amazon CloudFront <br>&emsp;+ Content Delivery Network (CDN) <br>&emsp;+ Distribution <br>&emsp;+ Edge Locations <br>&emsp;+ Cache Behavior | 19/05/2026 | 20/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Study the role of CloudFront in AWS architectures <br>&emsp;+ Improve application performance <br>&emsp;+ Reduce latency <br>&emsp;+ Increase availability | 21/05/2026 | 21/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Explore the architecture of an AI system on AWS <br>&emsp;+ Data processing workflow <br>&emsp;+ Overall AI architecture <br>&emsp;+ Preparation for Amazon Bedrock implementation | 22/05/2026 | 23/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Hands-on Practice:** <br>&emsp;+ Analyze a sample AI architecture <br>&emsp;+ Identify AWS services used in the solution <br>&emsp;+ Prepare for the AI Workflow and Amazon Bedrock workshop | 23/05/2026 | 24/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Successfully participated in **FCAJ Community Day**, networking with AWS community members and learning from real-world AWS implementation experiences.
 
-* Successfully created and configured an AWS Free Tier account.
+- Gained an understanding of **Amazon CloudFront** and its key components:
+  - Distribution
+  - Edge Locations
+  - Cache Behavior
+  - Origin
+  - Content Delivery Network (CDN)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Understood the role of Amazon CloudFront in accelerating content delivery, reducing latency, and improving application availability and performance.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Explored the overall architecture of an AI solution deployed on AWS, including its data processing workflow, AWS services involved, and system architecture.
 
-* Used AWS CLI to perform basic operations such as:
+- Became familiar with AI solution architecture concepts in preparation for learning AI Workflow and Amazon Bedrock in the following weeks.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Acquired a high-level understanding of how AI systems are designed and deployed on AWS, providing a solid foundation for implementing Generative AI solutions in upcoming workshops.

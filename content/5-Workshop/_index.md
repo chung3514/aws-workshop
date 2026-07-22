@@ -6,8 +6,9 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-
 # Deploying an AI Supply Chain Control Tower on AWS
+
+## Access Link: http://52.202.59.216/login
 
 #### Overview
 

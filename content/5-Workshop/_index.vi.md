@@ -6,8 +6,9 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-
 # Triển khai AI Supply Chain Control Tower trên AWS
+
+## Link truy cập: http://52.202.59.216/login
 
 #### Tổng quan
 

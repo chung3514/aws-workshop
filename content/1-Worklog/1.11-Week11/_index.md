@@ -5,53 +5,34 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Continue researching and refining the AI Supply Chain Control Tower solution.
+- Explore advanced functionalities for intelligent supply chain management.
+- Study AI applications for demand forecasting, transportation optimization, and supplier evaluation.
+- Finalize the design direction for the system's core functionalities.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Completed This Week:
 
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------------------------------------- |
+| 2 | - Continue researching the **AI Supply Chain Control Tower** project <br>&emsp;+ Supply Chain Control Tower architecture <br>&emsp;+ Transportation and order management workflows | 22/06/2026 | 23/06/2026 | AWS Workshop, AWS Documentation |
+| 3 | - Study transportation monitoring features <br>&emsp;+ GPS tracking <br>&emsp;+ Estimated Time of Arrival (ETA) <br>&emsp;+ Real-time order tracking | 24/06/2026 | 24/06/2026 | AWS Workshop |
+| 4 | - Explore AI applications in logistics <br>&emsp;+ Late delivery prediction <br>&emsp;+ Traffic data analysis <br>&emsp;+ Weather and historical transportation analysis | 25/06/2026 | 25/06/2026 | AWS Workshop, Amazon Bedrock |
+| 5 | - Study supplier management <br>&emsp;+ Performance evaluation <br>&emsp;+ Reliability comparison <br>&emsp;+ Supplier performance metrics | 26/06/2026 | 27/06/2026 | AWS Workshop |
+| 6 | - **Project Review:** <br>&emsp;+ Research AI Recommendation Engine <br>&emsp;+ Recommend inventory replenishment, stock transfers, and operational optimization | 28/06/2026 | 28/06/2026 | AWS Workshop |
 
 ### Week 11 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Continued refining the **AI Supply Chain Control Tower** solution and gained a deeper understanding of intelligent supply chain management challenges.
 
-* Successfully created and configured an AWS Free Tier account.
+- Learned how real-time shipment and order tracking can be implemented using GPS data and Estimated Time of Arrival (ETA) metrics.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Understood how AI can analyze traffic conditions, weather information, and historical transportation data to predict potential delivery delays.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Gained knowledge of supplier management techniques, including supplier performance evaluation, reliability assessment, and performance benchmarking.
 
-* Used AWS CLI to perform basic operations such as:
+- Explored the concept of an AI Recommendation Engine and its application in recommending inventory replenishment, stock transfers, inventory optimization, and overall supply chain operations.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Further refined the core functional design of the AI Supply Chain Control Tower, providing a strong foundation for the upcoming architecture design and AWS service implementation phases.

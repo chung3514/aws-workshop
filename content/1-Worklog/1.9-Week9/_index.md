@@ -5,53 +5,38 @@ weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Research the AI Supply Chain Control Tower project.
+- Understand the concept of an AI-powered Supply Chain Control Tower.
+- Analyze the core functionalities of the system.
+- Establish the project design direction for implementation.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Completed This Week:
 
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------------------------------------- |
+| 2 | - Study the **AI Supply Chain Control Tower** project <br>&emsp;+ Project objectives <br>&emsp;+ Supply chain management challenges <br>&emsp;+ The role of AI in the system | 08/06/2026 | 09/06/2026 | AWS Workshop, AWS Documentation |
+| 3 | - Research the AI Supply Chain Control Tower architecture <br>&emsp;+ Overall system architecture <br>&emsp;+ Data flow <br>&emsp;+ Core system components | 10/06/2026 | 10/06/2026 | AWS Workshop |
+| 4 | - Analyze the core system functionalities <br>&emsp;+ Executive dashboard <br>&emsp;+ Inventory management <br>&emsp;+ Inventory inbound/outbound tracking | 11/06/2026 | 11/06/2026 | AWS Workshop |
+| 5 | - Study AI applications within the system <br>&emsp;+ Demand forecasting <br>&emsp;+ Inventory forecasting <br>&emsp;+ AI-assisted decision support | 12/06/2026 | 13/06/2026 | AWS Workshop, Amazon Bedrock |
+| 6 | - **Project Planning:** <br>&emsp;+ Define the project implementation approach <br>&emsp;+ Summarize system requirements and key functionalities | 14/06/2026 | 14/06/2026 | Internal Summary |
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Gained a comprehensive understanding of supply chain management challenges and the objectives of the **AI Supply Chain Control Tower** project.
 
-* Successfully created and configured an AWS Free Tier account.
+- Understood the overall architecture of the AI Supply Chain Control Tower solution and identified its major system components.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Analyzed the core functionalities of the system, including:
+  - A real-time executive dashboard for supply chain visibility.
+  - Inventory management and stock movement tracking.
+  - Order management and transportation monitoring.
+  - Supplier management.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Learned how AI can be applied to demand forecasting, inventory prediction, and data-driven decision-making to improve supply chain efficiency.
 
-* Used AWS CLI to perform basic operations such as:
+- Established the project implementation strategy on AWS, providing the foundation for system architecture design and the deployment of AWS services in the following weeks.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Developed a comprehensive understanding of the AI Supply Chain Control Tower solution and identified the key features to be implemented in the project.
