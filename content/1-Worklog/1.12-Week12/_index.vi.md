@@ -5,54 +5,34 @@ weight: 2
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tiếp tục nghiên cứu và hoàn thiện mô hình AI Supply Chain Control Tower.
+- Tìm hiểu các công nghệ AI hỗ trợ mô phỏng, tối ưu và ra quyết định trong chuỗi cung ứng.
+- Nghiên cứu mô hình Digital Twin và AI Recommendation Engine.
+- Hoàn thiện các chức năng nâng cao của hệ thống.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                            | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ------------------------------- |
+| 2   | - Tiếp tục nghiên cứu đề tài **AI Supply Chain Control Tower** <br>&emsp;+ Tổng quan hệ thống <br>&emsp;+ Các chức năng AI nâng cao                                                  | 29/06/2026   | 30/06/2026      | AWS Workshop, AWS Documentation |
+| 3   | - Tìm hiểu **What-if Simulation** <br>&emsp;+ Mô phỏng các kịch bản kinh doanh <br>&emsp;+ Đánh giá tác động trước khi ra quyết định                                                 | 01/07/2026   | 01/07/2026      | AWS Workshop                    |
+| 4   | - Nghiên cứu **Supply Chain Digital Twin** <br>&emsp;+ Mô hình bản sao số chuỗi cung ứng <br>&emsp;+ Giám sát và mô phỏng toàn bộ hệ thống                                           | 02/07/2026   | 02/07/2026      | AWS Workshop                    |
+| 5   | - Tìm hiểu các giải pháp tối ưu vận hành <br>&emsp;+ Phân tích chi phí kho bãi <br>&emsp;+ Tối ưu vận chuyển <br>&emsp;+ Tối ưu tuyến đường                                          | 03/07/2026   | 04/07/2026      | AWS Workshop                    |
+| 6   | - **Tổng hợp:** <br>&emsp;+ Nghiên cứu AI Recommendation Engine <br>&emsp;+ Chat AI hỗ trợ tra cứu, phân tích dữ liệu bằng ngôn ngữ tự nhiên <br>&emsp;+ Hoàn thiện mô hình hệ thống | 05/07/2026   | 05/07/2026      | AWS Workshop                    |
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Tiếp tục hoàn thiện mô hình **AI Supply Chain Control Tower** và nghiên cứu các chức năng AI phục vụ quản lý chuỗi cung ứng.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu cơ chế **What-if Simulation**, cho phép mô phỏng các kịch bản kinh doanh và đánh giá tác động trước khi đưa ra quyết định.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Nắm được mô hình **Supply Chain Digital Twin**, giúp xây dựng bản sao số của chuỗi cung ứng để theo dõi, giám sát và mô phỏng hoạt động của toàn bộ hệ thống.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Hiểu các phương pháp tối ưu chi phí vận hành thông qua phân tích kho bãi, phương tiện vận chuyển và tối ưu tuyến đường.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Nghiên cứu **AI Recommendation Engine** và **Chat AI**, hỗ trợ tra cứu thông tin, phân tích dữ liệu bằng ngôn ngữ tự nhiên và đề xuất các phương án tối ưu cho hoạt động chuỗi cung ứng.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hoàn thiện các chức năng nâng cao của hệ thống AI Supply Chain Control Tower, tạo nền tảng cho việc triển khai kiến trúc và phát triển hệ thống thực tế trên AWS.

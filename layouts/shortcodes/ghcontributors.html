@@ -19,7 +19,10 @@
   }
 </style>
 <div class="ghContributors">
-  {{ $url := .Get 0 }} {{ range getJSON $url }}
+  {{ $owner := .Get "owner" }} {{ $repo := .Get "repo" }} {{ $url := printf
+  "https://api.github.com/repos/%s/%s/contributors" $owner $repo }}
+  {{$contributors := resources.GetRemote $url | transform.Unmarshal }} {{ range
+  $contributors }}
   <div>
     <img
       src="{{.avatar_url}}"

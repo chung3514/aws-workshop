@@ -5,55 +5,37 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tìm hiểu Amazon Bedrock AgentCore và FinOps Agent.
+- Hiểu cách ứng dụng AI trong quản lý và tối ưu chi phí AWS.
+- Làm quen với các dịch vụ AWS Cost Explorer, AWS Budgets và AWS Compute Optimizer.
+- Đánh giá và đề xuất các giải pháp tối ưu chi phí trên nền tảng AWS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                           | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
+| 2   | - Tìm hiểu Amazon Bedrock AgentCore <br>&emsp;+ Khái niệm AgentCore <br>&emsp;+ FinOps Agent <br>&emsp;+ Khả năng quản lý chi phí AWS bằng AI       | 01/06/2026   | 02/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 3   | - Nghiên cứu cách tích hợp FinOps Agent với các dịch vụ AWS <br>&emsp;+ AWS Cost Explorer <br>&emsp;+ AWS Budgets <br>&emsp;+ AWS Compute Optimizer | 03/06/2026   | 04/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Tìm hiểu phương pháp phân tích chi phí AWS <br>&emsp;+ Theo dõi chi phí <br>&emsp;+ Phát hiện tài nguyên lãng phí <br>&emsp;+ Đề xuất tối ưu      | 05/06/2026   | 05/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Đánh giá hiệu quả của FinOps Agent <br>&emsp;+ Phân tích báo cáo chi phí <br>&emsp;+ Đưa ra khuyến nghị tối ưu tài nguyên                         | 06/06/2026   | 06/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Tổng kết:** <br>&emsp;+ Tổng hợp kiến thức đã học <br>&emsp;+ Đánh giá khả năng ứng dụng FinOps Agent trong doanh nghiệp                        | 07/06/2026   | 07/06/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hiểu khái niệm **Amazon Bedrock AgentCore** và vai trò của **FinOps Agent** trong quản lý chi phí trên nền tảng AWS.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Nắm được cách tích hợp FinOps Agent với các dịch vụ:
+  - AWS Cost Explorer
+  - AWS Budgets
+  - AWS Compute Optimizer
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Hiểu quy trình theo dõi, phân tích và đánh giá chi phí sử dụng tài nguyên AWS.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Biết cách phát hiện các tài nguyên chưa được sử dụng hiệu quả và đưa ra các đề xuất tối ưu nhằm giảm chi phí vận hành.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Hiểu lợi ích của việc ứng dụng AI vào quản lý tài nguyên và chi phí trên nền tảng AWS, giúp doanh nghiệp nâng cao hiệu quả sử dụng hạ tầng đám mây.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Có khả năng phân tích báo cáo chi phí, đánh giá hiệu quả sử dụng tài nguyên và đề xuất các giải pháp tối ưu chi phí phù hợp với nhu cầu triển khai thực tế.

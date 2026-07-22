@@ -5,55 +5,34 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tham gia sự kiện Cloud Architect để nâng cao kiến thức về kiến trúc hệ thống trên AWS.
+- Tìm hiểu Amazon EKS và cơ chế Auto Scaling cho hệ thống container.
+- Hiểu về IAM Cross-Account Access, Resource-based Policy và AWS Config.
+- Tìm hiểu các giải pháp lưu trữ Hybrid Cloud và lưu trữ dài hạn trên AWS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
+| 2   | - Tham gia sự kiện **Cloud Architect** <br>&emsp;+ Cập nhật kiến thức về thiết kế kiến trúc hệ thống trên AWS <br>&emsp;+ Trao đổi với diễn giả và cộng đồng AWS | 15/06/2026   | 15/06/2026      | AWS Cloud Architect Workshop            |
+| 3   | - Tìm hiểu Amazon Elastic Kubernetes Service (Amazon EKS) <br>&emsp;+ Kubernetes Cluster <br>&emsp;+ Worker Node <br>&emsp;+ Auto Scaling cho hệ thống Container | 16/06/2026   | 17/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Tìm hiểu IAM Cross-Account Access <br>&emsp;+ IAM Role <br>&emsp;+ Resource-based Policy <br>&emsp;+ AWS Config                                                | 18/06/2026   | 18/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Tìm hiểu AWS Storage Gateway <br>&emsp;+ File Gateway <br>&emsp;+ Amazon S3 <br>&emsp;+ Amazon S3 Glacier <br>&emsp;+ Hybrid Cloud Storage                     | 19/06/2026   | 20/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Thực hành:** <br>&emsp;+ Phân tích các tình huống kiến trúc theo dạng đề thi AWS Solutions Architect <br>&emsp;+ Đánh giá và lựa chọn giải pháp AWS phù hợp  | 20/06/2026   | 21/06/2026      | AWS Solutions Architect                 |
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Đã tham gia sự kiện **Cloud Architect**, cập nhật kiến thức về thiết kế và triển khai kiến trúc hệ thống trên nền tảng AWS.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu dịch vụ **Amazon EKS** và cơ chế Auto Scaling cho các ứng dụng triển khai trên nền tảng Kubernetes.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Nắm được cách sử dụng **IAM Cross-Account Access**, **Resource-based Policy** và **AWS Config** để tăng cường quản lý quyền truy cập, bảo mật và tuân thủ trong môi trường AWS.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Hiểu các giải pháp lưu trữ Hybrid Cloud với **AWS Storage Gateway (File Gateway)**, **Amazon S3** và **Amazon S3 Glacier**, đồng thời biết cách lựa chọn dịch vụ lưu trữ phù hợp với từng nhu cầu.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Thực hành phân tích các tình huống kiến trúc theo dạng đề thi **AWS Solutions Architect**, từ đó nâng cao kỹ năng lựa chọn dịch vụ AWS và thiết kế giải pháp đáp ứng yêu cầu thực tế.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Nâng cao kiến thức về thiết kế kiến trúc hệ thống, bảo mật, lưu trữ và tối ưu hạ tầng trên AWS, tạo nền tảng cho việc triển khai các hệ thống Cloud quy mô doanh nghiệp.

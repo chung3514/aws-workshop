@@ -5,55 +5,45 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hiểu cơ chế tự động mở rộng tài nguyên với Amazon EC2 Auto Scaling.
+- Nắm được cách ứng dụng Auto Scaling Group vào hệ thống FCJ MANAGEMENT.
+- Làm quen với Amazon CloudWatch và các thành phần giám sát.
+- Thực hành theo dõi, giám sát và đánh giá trạng thái hoạt động của hệ thống AWS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | --------------------------------------- |
+| 2   | - Tìm hiểu Amazon EC2 Auto Scaling <br>&emsp;+ Auto Scaling Group <br>&emsp;+ Launch Template <br>&emsp;+ Scaling Policy <br>&emsp;+ Desired, Minimum và Maximum Capacity                  | 25/05/2026   | 25/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 3   | - Tìm hiểu cách áp dụng Auto Scaling Group vào hệ thống FCJ MANAGEMENT <br>&emsp;+ Cấu hình Auto Scaling <br>&emsp;+ Chính sách mở rộng và thu hẹp EC2 theo nhu cầu                        | 26/05/2026   | 27/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Tìm hiểu Amazon CloudWatch <br>&emsp;+ Metrics <br>&emsp;+ Logs <br>&emsp;+ Events <br>&emsp;+ CloudWatch Alarms                                                                         | 28/05/2026   | 28/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Thực hành CloudWatch <br>&emsp;+ Theo dõi CPU, Memory, Network <br>&emsp;+ Tạo Dashboard <br>&emsp;+ Cấu hình CloudWatch Alarm                                                           | 29/05/2026   | 30/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Thực hành:** <br>&emsp;+ Kiểm tra hoạt động của Auto Scaling Group <br>&emsp;+ Giám sát hệ thống bằng CloudWatch <br>&emsp;+ Đánh giá trạng thái hoạt động thông qua Metrics và Alarms | 30/05/2026   | 31/05/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hiểu cơ chế hoạt động của Amazon EC2 Auto Scaling và các thành phần:
+  - Launch Template
+  - Auto Scaling Group
+  - Scaling Policy
+  - Desired Capacity
+  - Minimum Capacity
+  - Maximum Capacity
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu cách áp dụng Auto Scaling Group vào hệ thống FCJ MANAGEMENT nhằm tự động điều chỉnh số lượng EC2 theo lưu lượng truy cập và nhu cầu sử dụng.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Làm quen với Amazon CloudWatch và các thành phần:
+  - Metrics
+  - Logs
+  - Events
+  - CloudWatch Alarms
+  - Dashboards
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Thực hành theo dõi hiệu năng hệ thống thông qua các chỉ số như CPU Utilization, Network In/Out và các thông số giám sát khác.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Tạo CloudWatch Dashboard và CloudWatch Alarm để theo dõi, cảnh báo khi tài nguyên vượt ngưỡng cấu hình.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Có khả năng kết hợp Amazon EC2 Auto Scaling và Amazon CloudWatch để xây dựng hệ thống có khả năng tự động mở rộng, giám sát và đảm bảo tính sẵn sàng cao cho các ứng dụng triển khai trên AWS.

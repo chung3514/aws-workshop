@@ -1,46 +1,14 @@
 ---
-title: "Các events đã tham gia"
-date: 2024-01-01
+title: "Sự kiện tham gia"
+chapter: true
 weight: 4
-chapter: false
-pre: " <b> 4. </b> "
+pre: "<b>4. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Sự kiện tham gia
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+Trong quá trình học tập và tham gia cộng đồng **AWS First Cloud Journey (FCAJ)**, tôi đã có cơ hội tham dự nhiều workshop và sự kiện công nghệ liên quan đến điện toán đám mây, kiến trúc hệ thống và Generative AI.
 
+Các sự kiện này giúp tôi không chỉ củng cố kiến thức về các dịch vụ AWS mà còn tiếp cận nhiều tình huống thực tế, phương pháp thiết kế kiến trúc Cloud hiện đại cũng như cách ứng dụng AI vào phát triển phần mềm. Bên cạnh đó, tôi còn được rèn luyện kỹ năng làm việc nhóm, tư duy phân tích và khả năng giải quyết vấn đề thông qua các hoạt động thảo luận và thử thách theo nhóm.
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
-
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-
-
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
+Các mục bên dưới sẽ trình bày chi tiết từng sự kiện mà tôi đã tham gia, bao gồm mục tiêu, nội dung nổi bật, kiến thức tiếp thu và những kinh nghiệm thực tế thu được.

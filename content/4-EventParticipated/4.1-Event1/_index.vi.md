@@ -1,125 +1,206 @@
 ---
-title: "Event 1"
-date: 2024-01-01
-weight: 1
+title: "AWS First Cloud AI Journey – Community Day"
+date: 2026-05-23
+weight: 2
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+⚠️ **Lưu ý:** Nội dung dưới đây chỉ mang tính chất tham khảo. Vui lòng **không sao chép nguyên văn** vào báo cáo của bạn, bao gồm cả phần cảnh báo này.
 {{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Báo cáo thu hoạch: "AWS First Cloud AI Journey – Community Day"
 
-### Mục Đích Của Sự Kiện
+### Mục đích của sự kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Chia sẻ những xu hướng mới nhất về Cloud Computing và Generative AI trên nền tảng AWS.
+- Giới thiệu các kiến trúc hiện đại trong phát triển ứng dụng AI và điện toán đám mây.
+- Hướng dẫn xây dựng hệ thống AI sử dụng Amazon Bedrock, Serverless và các dịch vụ AWS.
+- Tìm hiểu về Large Language Models (LLMs), AI Agent và Multi-Agent Systems thông qua các ví dụ thực tế.
+- Tạo cơ hội giao lưu, học hỏi và kết nối cộng đồng yêu thích AWS, Cloud và AI.
 
-### Danh Sách Diễn Giả
+### Danh sách diễn giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Vy Lam** – Senior Business Systems Analyst, VPBank
+- **Thảo Nguyễn** – GenAI Engineer, VIB
+- **Mai Nguyễn** – GenAI Engineer, VIB
+- **Uyên Lê** – GenAI Engineer, VIB
+- **Anh Phạm** – Cloud Consultant, GoAsiaPacific Vietnam
+- **Thịnh Nguyễn** – DevOps Engineer, FCAJ
+- **Tịnh Trương** – Platform Engineer, GoTymeX
+- **Đức Đào** – Solutions Architect, Cloud Kinetics
 
-### Nội Dung Nổi Bật
+### Nội dung nổi bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Context Is Everything – Making AI Actually Work for You
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+Các diễn giả nhấn mạnh rằng **Context** là yếu tố quan trọng quyết định chất lượng phản hồi của các mô hình Generative AI.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Những nội dung nổi bật gồm:
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Vì sao AI thường đưa ra câu trả lời chưa chính xác khi thiếu ngữ cảnh.
+- Khái niệm **Second AI Brain** và cách AI lưu trữ, sử dụng thông tin.
+- Kết hợp **Prompt Engineering** với Context để nâng cao chất lượng phản hồi.
+- Xây dựng hệ thống AI có khả năng ghi nhớ và xử lý thông tin theo ngữ cảnh thực tế.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Cloud Architecture với Amazon Bedrock
 
-#### Domain-Driven Design (DDD)
+Workshop giới thiệu kiến trúc AI hiện đại trên nền tảng AWS sử dụng:
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Amazon CloudFront
+- Amazon S3
+- API Gateway
+- AWS Lambda
+- Amazon Bedrock
+- DynamoDB
+- AWS SAM
+- React Application
 
-#### Event-Driven Architecture
+Quy trình hoạt động:
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+- Người dùng gửi yêu cầu thông qua CloudFront.
+- API Gateway tiếp nhận request.
+- AWS Lambda xử lý nghiệp vụ.
+- Amazon Bedrock thực hiện suy luận AI.
+- Dữ liệu được lưu trên Amazon S3 và DynamoDB.
+- Kết quả trả về giao diện người dùng.
 
-#### Compute Evolution
+Lợi ích của kiến trúc:
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+- Hoàn toàn Serverless.
+- Tự động mở rộng.
+- Giảm chi phí vận hành.
+- Không cần quản lý máy chủ.
+- Triển khai AI nhanh chóng và linh hoạt.
 
-#### Amazon Q Developer
+#### Nghiên cứu về Large Language Models (LLMs)
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Workshop giới thiệu bài nghiên cứu:
 
-### Những Gì Học Được
+**"Non-Determinism of Deterministic LLM Settings"**
 
-#### Tư Duy Thiết Kế
+Qua đó giúp người tham dự hiểu:
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- Vì sao cùng một Prompt nhưng AI vẫn có thể sinh ra nhiều kết quả khác nhau.
+- Những yếu tố ảnh hưởng đến tính ổn định của mô hình ngôn ngữ lớn.
+- Cách hiểu rõ hơn về hành vi của LLM để xây dựng hệ thống AI đáng tin cậy.
 
-#### Kiến Trúc Kỹ Thuật
+#### Vai trò của Temperature, Top-P và Top-K
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+Workshop giải thích chi tiết các tham số quan trọng trong mô hình AI.
 
-#### Chiến Lược Hiện Đại Hóa
+- **Temperature** điều chỉnh mức độ sáng tạo của AI.
+- **Top-P** giới hạn tập từ theo xác suất tích lũy.
+- **Top-K** giới hạn số lượng từ được lựa chọn ở mỗi bước sinh văn bản.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+Việc hiểu rõ các tham số này giúp tối ưu chất lượng phản hồi của AI trong nhiều bài toán khác nhau.
 
-### Ứng Dụng Vào Công Việc
+#### Single-Agent và Multi-Agent Architecture
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Một trong những nội dung ấn tượng nhất là phần so sánh giữa Single-Agent và Multi-Agent.
 
-### Trải nghiệm trong event
+Hạn chế của Single-Agent:
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Context bị giới hạn.
+- Single Point of Failure.
+- Khó mở rộng.
+- Khả năng suy luận còn hạn chế.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+Mô hình **Virtual Credit Committee** sử dụng nhiều AI Agent chuyên trách:
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+- Manager
+- Financial Analyst
+- Market Analyst
+- Team Evaluator
+- Risk Assessor
+- Compliance
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+Sự phối hợp giữa nhiều Agent giúp:
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+- Tăng độ chính xác.
+- Giảm sai sót.
+- Tăng khả năng reasoning.
+- Dễ mở rộng hệ thống.
+- Mô phỏng quá trình ra quyết định trong doanh nghiệp.
+
+### Những gì học được
+
+#### Kiến thức về Cloud
+
+- Hiểu cách các dịch vụ AWS phối hợp để xây dựng ứng dụng AI hiện đại.
+- Nắm được kiến trúc Serverless và lợi ích của việc không phải quản lý hạ tầng.
+- Hiểu rõ hơn về quy trình triển khai ứng dụng AI trên nền tảng AWS.
+
+#### Kiến thức về AI
+
+- Context đóng vai trò rất quan trọng trong Generative AI.
+- Prompt Engineering sẽ hiệu quả hơn khi kết hợp với Context.
+- Hiểu rõ hơn về cách hoạt động của Large Language Models.
+
+#### Kiến thức về kiến trúc hiện đại
+
+- Amazon Bedrock giúp triển khai Generative AI nhanh chóng.
+- Multi-Agent Architecture mang lại hiệu quả cao hơn Single-Agent.
+- Serverless giúp hệ thống linh hoạt, dễ mở rộng và tiết kiệm chi phí.
+
+### Ứng dụng vào công việc
+
+Những kiến thức thu được có thể áp dụng vào nhiều dự án thực tế như:
+
+- Xây dựng chatbot AI bằng Amazon Bedrock.
+- Thiết kế Serverless Architecture với AWS Lambda và API Gateway.
+- Xây dựng hệ thống AI có khả năng ghi nhớ Context.
+- Áp dụng Multi-Agent Architecture cho các bài toán doanh nghiệp.
+- Tối ưu Prompt Engineering.
+- Triển khai ứng dụng AI trên nền tảng AWS Cloud.
+
+### Trải nghiệm tham gia sự kiện
+
+Tham gia **AWS First Cloud AI Journey – Community Day** là một trải nghiệm rất bổ ích, giúp tôi hiểu rõ hơn về Cloud Computing và Generative AI trên nền tảng AWS.
+
+#### Học hỏi từ các chuyên gia
+
+Các diễn giả đến từ VPBank, VIB, GoAsiaPacific Vietnam, GoTymeX và Cloud Kinetics đã chia sẻ nhiều kinh nghiệm thực tế trong việc xây dựng và triển khai các hệ thống AI trên nền tảng AWS.
+
+Những ví dụ thực tế giúp tôi hiểu rõ hơn cách áp dụng kiến trúc Cloud hiện đại vào các dự án doanh nghiệp.
+
+#### Tiếp cận kiến thức thực tiễn
+
+Tôi được tìm hiểu chi tiết về kiến trúc sử dụng Amazon Bedrock kết hợp Lambda, API Gateway, CloudFront, S3 và DynamoDB để xây dựng một ứng dụng AI hoàn chỉnh.
+
+Ngoài ra, phần trình bày về Context Engineering giúp tôi nhận ra rằng một hệ thống AI hiệu quả không chỉ phụ thuộc vào Prompt mà còn phụ thuộc rất nhiều vào Context.
+
+#### Khám phá các công nghệ AI hiện đại
+
+Workshop giúp tôi hiểu rõ hơn về Large Language Models, Temperature, Top-P, Top-K cũng như kiến trúc Multi-Agent.
+
+Đặc biệt, phần so sánh giữa Single-Agent và Multi-Agent giúp tôi nhận thấy lợi ích của việc chia nhỏ nhiệm vụ cho nhiều AI Agent chuyên biệt để nâng cao hiệu quả xử lý.
+
+#### Giao lưu và kết nối
+
+Sự kiện còn mang đến cơ hội trao đổi với các chuyên gia AWS, kỹ sư AI và những người có cùng đam mê về Cloud Computing và Generative AI.
+
+Qua các buổi trao đổi, tôi học hỏi thêm nhiều kinh nghiệm thực tế và mở rộng góc nhìn về xu hướng phát triển AI trong doanh nghiệp.
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+- Context là yếu tố quan trọng quyết định chất lượng của hệ thống AI.
+- Amazon Bedrock giúp triển khai Generative AI nhanh chóng mà không cần quản lý hạ tầng mô hình.
+- Serverless Architecture giúp tối ưu chi phí và dễ dàng mở rộng.
+- Multi-Agent Architecture là hướng phát triển đầy tiềm năng cho các hệ thống AI hiện đại.
+- Sự kết hợp giữa Cloud Computing và Generative AI sẽ tạo ra những ứng dụng thông minh, linh hoạt và hiệu quả hơn trong tương lai.
+
+#### Một số hình ảnh tham gia sự kiện
+
+<p align="center">
+  <img src="/images/4-Events/event2-1.jpg" width="45%" alt="Opening session">
+  <img src="/images/4-Events/event2-2.jpg" width="45%" alt="Workshop discussion">
+</p>
+
+<p align="center">
+  <img src="/images/4-Events/event2-3.jpg" width="45%" alt="Cloud architecture presentation">
+  <img src="/images/4-Events/event2-4.jpg" width="45%" alt="Multi-Agent architecture presentation">
+</p>
+
+> Nhìn chung, **AWS First Cloud AI Journey – Community Day** không chỉ mang lại nhiều kiến thức chuyên môn về Cloud và Generative AI mà còn giúp tôi hiểu rõ hơn về kiến trúc hiện đại, cách xây dựng hệ thống AI trên AWS cũng như định hướng áp dụng những công nghệ này vào các dự án học tập và công việc trong tương lai.

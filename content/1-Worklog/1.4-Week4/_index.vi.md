@@ -5,55 +5,45 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hiểu cách triển khai hạ tầng AWS bằng Infrastructure as Code (IaC).
+- Làm quen với AWS CloudFormation.
+- Thực hành kết nối máy chủ thông qua Remote Desktop Protocol (RDP).
+- Hiểu dịch vụ AWS Backup và các phương pháp sao lưu, khôi phục dữ liệu.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
+| 2   | - Tìm hiểu Infrastructure as Code (IaC) <br>&emsp;+ Khái niệm IaC <br>&emsp;+ AWS CloudFormation <br>&emsp;+ Template và Stack        | 04/05/2026   | 04/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 3   | - Thực hành AWS CloudFormation <br>&emsp;+ Tạo CloudFormation Template <br>&emsp;+ Triển khai Stack <br>&emsp;+ Cập nhật và xóa Stack | 05/05/2026   | 06/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Thực hành đăng nhập máy chủ RDGW bằng giao thức RDP <br>&emsp;+ Cấu hình Remote Desktop <br>&emsp;+ Kết nối máy chủ Windows         | 07/05/2026   | 07/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Tìm hiểu AWS Backup <br>&emsp;+ Backup Vault <br>&emsp;+ Backup Plan <br>&emsp;+ Recovery Point <br>&emsp;+ Restore dữ liệu         | 08/05/2026   | 09/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Thực hành:** <br>&emsp;+ Tạo Backup Plan <br>&emsp;+ Thực hiện Backup tài nguyên <br>&emsp;+ Khôi phục dữ liệu từ bản sao lưu     | 09/05/2026   | 10/05/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hiểu khái niệm **Infrastructure as Code (IaC)** và lợi ích của việc tự động hóa quá trình triển khai hạ tầng trên AWS.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Làm quen với AWS CloudFormation và hiểu các thành phần:
+  - Template
+  - Stack
+  - Resources
+  - Parameters
+  - Outputs
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Thực hành triển khai hạ tầng bằng CloudFormation thông qua việc tạo, cập nhật và xóa Stack.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Thực hiện thành công kết nối máy chủ thông qua giao thức **Remote Desktop Protocol (RDP)** và làm quen với môi trường Windows Server.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Hiểu dịch vụ AWS Backup và các thành phần:
+  - Backup Vault
+  - Backup Plan
+  - Recovery Point
+  - Restore
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Thực hành tạo kế hoạch sao lưu (Backup Plan), thực hiện sao lưu tài nguyên và khôi phục dữ liệu từ bản sao lưu.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Có khả năng sử dụng AWS CloudFormation để triển khai hạ tầng dưới dạng mã (Infrastructure as Code) và áp dụng AWS Backup để xây dựng giải pháp sao lưu, khôi phục dữ liệu cho hệ thống AWS.

@@ -5,55 +5,49 @@ weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hiểu các khái niệm mạng cơ bản trên AWS.
+- Nắm được cách xây dựng hạ tầng mạng với Amazon VPC.
+- Thực hành tạo và cấu hình Amazon EC2.
+- Làm quen với dịch vụ giám sát Amazon CloudWatch.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
+| 2   | - Tìm hiểu các khái niệm mạng trên AWS <br>&emsp;+ AWS Region <br>&emsp;+ Availability Zone (AZ) <br>&emsp;+ Amazon VPC <br>&emsp;+ Subnet                                  | 27/04/2026   | 27/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 3   | - Tìm hiểu các thành phần mạng <br>&emsp;+ Internet Gateway (IGW) <br>&emsp;+ NAT Gateway <br>&emsp;+ Route Table <br>&emsp;+ Security Group <br>&emsp;+ Network ACL (NACL) | 28/04/2026   | 28/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Tạo và cấu hình Amazon EC2 Instance <br>&emsp;+ Chọn AMI <br>&emsp;+ Chọn Instance Type <br>&emsp;+ Cấu hình VPC, Subnet và Security Group                                | 29/04/2026   | 30/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Làm quen với Amazon CloudWatch <br>&emsp;+ Metrics <br>&emsp;+ Logs <br>&emsp;+ Alarms <br>&emsp;+ Dashboards                                                             | 01/05/2026   | 02/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Thực hành:** <br>&emsp;+ Tạo Amazon VPC <br>&emsp;+ Tạo EC2 trong VPC <br>&emsp;+ Kết nối SSH <br>&emsp;+ Theo dõi EC2 bằng CloudWatch                                  | 02/05/2026   | 03/05/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 3:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hiểu các khái niệm mạng cơ bản trên AWS:
+  - AWS Region
+  - Availability Zone (AZ)
+  - Amazon VPC
+  - Subnet
+  - Internet Gateway (IGW)
+  - NAT Gateway
+  - Route Table
+  - Security Group
+  - Network ACL (NACL)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu vai trò của từng thành phần trong việc xây dựng hạ tầng mạng trên AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Đã tạo và cấu hình thành công Amazon EC2 Instance trong Amazon VPC.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Biết cách lựa chọn AMI, Instance Type, VPC, Subnet và Security Group khi khởi tạo EC2.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Làm quen với Amazon CloudWatch và hiểu các thành phần:
+  - Metrics
+  - Logs
+  - Alarms
+  - Dashboards
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Thực hành tạo Amazon VPC, triển khai EC2 trong VPC, kết nối SSH và giám sát tài nguyên bằng Amazon CloudWatch.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Có khả năng triển khai một hạ tầng AWS cơ bản gồm VPC, EC2 và CloudWatch, tạo nền tảng cho việc học các dịch vụ AWS nâng cao ở các tuần tiếp theo.
