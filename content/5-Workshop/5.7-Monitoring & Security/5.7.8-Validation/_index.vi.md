@@ -5,8 +5,6 @@ weight: 8
 chapter: false
 ---
 
-# 5.7.8 Kiểm tra và xác thực Monitoring & Security
-
 ## Tổng quan
 
 Sau khi triển khai các dịch vụ giám sát và bảo mật, bước cuối cùng là xác thực toàn bộ cấu hình để đảm bảo hệ thống hoạt động đúng như mong đợi.

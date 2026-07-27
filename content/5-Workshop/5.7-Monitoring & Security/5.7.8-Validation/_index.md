@@ -5,8 +5,6 @@ weight: 8
 chapter: false
 ---
 
-# 5.7.8 Validate Monitoring and Security Configuration
-
 ## Overview
 
 After implementing the monitoring and security services, the final step is to validate the complete configuration.
