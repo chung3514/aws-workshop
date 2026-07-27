@@ -89,41 +89,41 @@ AI-SupplyChain-VPC
 
 ### Bước 3. Tạo Public Subnet A
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Name | Public-Subnet-A |
+| Thuộc tính        | Giá trị         |
+| ----------------- | --------------- |
+| Name              | Public-Subnet-A |
 | Availability Zone | ap-southeast-1a |
-| CIDR | 10.0.1.0/24 |
+| CIDR              | 10.0.1.0/24     |
 
 ---
 
 ### Bước 4. Tạo Public Subnet B
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Name | Public-Subnet-B |
+| Thuộc tính        | Giá trị         |
+| ----------------- | --------------- |
+| Name              | Public-Subnet-B |
 | Availability Zone | ap-southeast-1b |
-| CIDR | 10.0.2.0/24 |
+| CIDR              | 10.0.2.0/24     |
 
 ---
 
 ### Bước 5. Tạo Private Subnet A
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Name | Private-Subnet-A |
-| Availability Zone | ap-southeast-1a |
-| CIDR | 10.0.11.0/24 |
+| Thuộc tính        | Giá trị          |
+| ----------------- | ---------------- |
+| Name              | Private-Subnet-A |
+| Availability Zone | ap-southeast-1a  |
+| CIDR              | 10.0.11.0/24     |
 
 ---
 
 ### Bước 6. Tạo Private Subnet B
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Name | Private-Subnet-B |
-| Availability Zone | ap-southeast-1b |
-| CIDR | 10.0.12.0/24 |
+| Thuộc tính        | Giá trị          |
+| ----------------- | ---------------- |
+| Name              | Private-Subnet-B |
+| Availability Zone | ap-southeast-1b  |
+| CIDR              | 10.0.12.0/24     |
 
 ---
 
@@ -131,14 +131,12 @@ AI-SupplyChain-VPC
 
 Danh sách Subnets sẽ hiển thị:
 
-| Name | CIDR | AZ |
-|------|------|----|
-| Public-Subnet-A | 10.0.1.0/24 | ap-southeast-1a |
-| Public-Subnet-B | 10.0.2.0/24 | ap-southeast-1b |
+| Name             | CIDR         | AZ              |
+| ---------------- | ------------ | --------------- |
+| Public-Subnet-A  | 10.0.1.0/24  | ap-southeast-1a |
+| Public-Subnet-B  | 10.0.2.0/24  | ap-southeast-1b |
 | Private-Subnet-A | 10.0.11.0/24 | ap-southeast-1a |
 | Private-Subnet-B | 10.0.12.0/24 | ap-southeast-1b |
-
-> Chèn hình: Subnet List
 
 ---
 

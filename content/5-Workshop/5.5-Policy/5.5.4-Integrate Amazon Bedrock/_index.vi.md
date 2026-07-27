@@ -113,8 +113,6 @@ Request access
 
 Chờ AWS phê duyệt (nếu cần).
 
-> Chèn hình: Model Access
-
 ---
 
 ## Bước 3. Cấp quyền cho Lambda

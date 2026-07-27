@@ -89,8 +89,6 @@ Save
 
 Athena sẽ lưu toàn bộ kết quả truy vấn vào thư mục này.
 
-> Chèn hình: Athena Settings
-
 ---
 
 ## Bước 3. Chọn Data Source

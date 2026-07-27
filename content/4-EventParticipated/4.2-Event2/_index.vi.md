@@ -187,7 +187,7 @@ Bên cạnh đó, không khí thi đấu diễn ra rất sôi nổi. Các thành
 <table>
 <tr>
 <td align="center">
-<img src="/images/evennt3-1.jpg" width="100%" alt="Cloud Architect Workshop"><br>
+<img src="/images/4-Events/evennt3-1.jpg" width="100%" alt="Cloud Architect Workshop"><br>
 <b>Hình ảnh tham gia Cloud Architect Workshop.</b>
 </td>
 

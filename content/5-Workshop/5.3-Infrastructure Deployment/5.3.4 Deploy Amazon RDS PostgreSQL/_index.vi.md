@@ -76,8 +76,6 @@ Chọn:
 Databases
 ```
 
-> Chèn hình: Amazon RDS Dashboard
-
 ---
 
 ## Bước 2. Tạo DB Subnet Group
@@ -96,18 +94,16 @@ Create DB subnet group
 
 Cấu hình:
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Name | ai-supplychain-subnet-group |
-| Description | DB Subnet Group |
-| VPC | AI-SupplyChain-VPC |
+| Thuộc tính  | Giá trị                     |
+| ----------- | --------------------------- |
+| Name        | ai-supplychain-subnet-group |
+| Description | DB Subnet Group             |
+| VPC         | AI-SupplyChain-VPC          |
 
 Chọn hai Private Subnets:
 
 - Private-Subnet-A
 - Private-Subnet-B
-
-> Chèn hình: DB Subnet Group
 
 ---
 
@@ -131,13 +127,11 @@ Create database
 
 Thiết lập:
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Creation method | Standard Create |
-| Engine | PostgreSQL |
-| Version | PostgreSQL 16.x (hoặc phiên bản ổn định mới nhất) |
-
-> Chèn hình: Database Engine
+| Thuộc tính      | Giá trị                                           |
+| --------------- | ------------------------------------------------- |
+| Creation method | Standard Create                                   |
+| Engine          | PostgreSQL                                        |
+| Version         | PostgreSQL 16.x (hoặc phiên bản ổn định mới nhất) |
 
 ---
 
@@ -161,34 +155,32 @@ nếu không sử dụng Free Tier.
 
 ## Bước 6. Đặt tên Database
 
-| Thuộc tính | Giá trị |
-|------------|----------|
+| Thuộc tính             | Giá trị           |
+| ---------------------- | ----------------- |
 | DB Instance Identifier | ai-supplychain-db |
-| Master Username | postgres |
-| Master Password | ******** |
-
-> Chèn hình: Database Settings
+| Master Username        | postgres          |
+| Master Password        | **\*\*\*\***      |
 
 ---
 
 ## Bước 7. Cấu hình Instance
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Instance Class | db.t3.micro |
-| Storage Type | gp3 |
-| Allocated Storage | 20 GB |
+| Thuộc tính        | Giá trị     |
+| ----------------- | ----------- |
+| Instance Class    | db.t3.micro |
+| Storage Type      | gp3         |
+| Allocated Storage | 20 GB       |
 
 ---
 
 ## Bước 8. Cấu hình Network
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| VPC | AI-SupplyChain-VPC |
+| Thuộc tính      | Giá trị                     |
+| --------------- | --------------------------- |
+| VPC             | AI-SupplyChain-VPC          |
 | DB Subnet Group | ai-supplychain-subnet-group |
-| Public Access | No |
-| Security Group | RDS-SG |
+| Public Access   | No                          |
+| Security Group  | RDS-SG                      |
 
 Việc tắt **Public Access** giúp cơ sở dữ liệu chỉ có thể được truy cập từ các tài nguyên nội bộ trong VPC.
 
@@ -198,8 +190,8 @@ Việc tắt **Public Access** giúp cơ sở dữ liệu chỉ có thể đư�
 
 Đặt:
 
-| Thuộc tính | Giá trị |
-|------------|----------|
+| Thuộc tính            | Giá trị     |
+| --------------------- | ----------- |
 | Initial Database Name | supplychain |
 
 Có thể giữ mặc định các thông số còn lại.
@@ -258,20 +250,19 @@ Endpoint này sẽ được sử dụng trong chương **5.4 Backend API Deploym
 
 ![Kiến trúc Amazon VPC](/images/5-Workshop/5.3-S3-vpc/5.3.4.png)
 
-
 ---
 
 # Kiểm tra kết quả
 
 Thông tin Database:
 
-| Thuộc tính | Giá trị |
-|------------|----------|
-| Engine | PostgreSQL |
-| Status | Available |
-| Public Access | No |
-| Storage | 20 GB |
-| VPC | AI-SupplyChain-VPC |
+| Thuộc tính    | Giá trị            |
+| ------------- | ------------------ |
+| Engine        | PostgreSQL         |
+| Status        | Available          |
+| Public Access | No                 |
+| Storage       | 20 GB              |
+| VPC           | AI-SupplyChain-VPC |
 
 ---
 

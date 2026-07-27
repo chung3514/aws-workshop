@@ -102,8 +102,6 @@ Email
 
 Cho phép người dùng sử dụng địa chỉ email để đăng nhập.
 
-> Chèn hình: Sign-in Options
-
 ---
 
 ## Bước 4. Thiết lập bảo mật
@@ -113,8 +111,6 @@ Giữ cấu hình mặc định:
 - Password Policy: Default
 - MFA: Optional hoặc Disabled (Workshop)
 - Self Registration: Enabled
-
-> Chèn hình: Security Configuration
 
 ---
 

@@ -122,8 +122,6 @@ Nhấn:
 Create Security Group
 ```
 
-> Chèn hình: Lambda Security Group
-
 ---
 
 ## Bước 3. Tạo Security Group cho Amazon RDS
@@ -155,8 +153,6 @@ Thêm Rule:
 Điều này đồng nghĩa:
 
 ✔ Chỉ các Lambda sử dụng Lambda-SG mới có quyền truy cập PostgreSQL.
-
-> Chèn hình: PostgreSQL Rule
 
 ---
 

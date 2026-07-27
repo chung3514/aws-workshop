@@ -89,8 +89,6 @@ Configure the following settings:
 | IPv6 CIDR           | No IPv6            |
 | Tenancy             | Default            |
 
-> Insert Screenshot: Create VPC
-
 ---
 
 ### Step 4. Create the VPC
@@ -122,8 +120,6 @@ Edit VPC Settings
 ```
 
 Enable both options.
-
-> Insert Screenshot: DNS Settings
 
 ---
 

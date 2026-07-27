@@ -99,8 +99,6 @@ Nhấn:
 Next
 ```
 
-> Chèn hình: Create IAM Role
-
 ---
 
 ## Bước 3. Thêm quyền
@@ -122,6 +120,7 @@ Tìm và chọn các chính sách sau:
 ---
 
 ## Bước 4. Đặt tên Role
+
 Nhập:
 
 | Thuộc tính | Giá trị                   |
@@ -133,8 +132,6 @@ Nhấn:
 ```
 Create Role
 ```
-
-> Chèn hình: IAM Role Summary
 
 ---
 

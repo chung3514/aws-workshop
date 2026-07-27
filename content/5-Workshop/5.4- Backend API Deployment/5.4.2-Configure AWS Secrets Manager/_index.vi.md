@@ -148,8 +148,6 @@ Ví dụ JSON:
 }
 ```
 
-> Chèn hình: Secret JSON
-
 ---
 
 ## Bước 5. Đặt tên Secret
