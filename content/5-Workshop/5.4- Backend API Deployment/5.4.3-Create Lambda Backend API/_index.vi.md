@@ -90,7 +90,7 @@ Chọn:
 Functions
 ```
 
-![Lambda Dashboard](/images/5-Workshop/5.4-S3-onprem/5.4.2.png)
+![Lambda Dashboard](/images/5-Workshop/5.4-S3-onprem/5.4.3.png)
 
 ---
 
@@ -118,7 +118,6 @@ Author from scratch
 | Runtime       | Java 21                |
 | Architecture  | x86_64                 |
 
-> Nếu backend của bạn sử dụng Node.js hoặc Python, hãy chọn Runtime tương ứng.
 
 ---
 
@@ -159,7 +158,6 @@ Role này đã được tạo ở mục **5.3.7** và có quyền truy cập:
 | Subnets        | Private-Subnet-A, Private-Subnet-B |
 | Security Group | Lambda-SG                          |
 
-> Chèn hình: Lambda VPC Configuration
 
 ---
 

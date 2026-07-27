@@ -48,7 +48,7 @@ After completing this section, you will:
 ## Implementation Steps
 
 1. Open the **AWS Lambda Console**.
-![Lambda Dashboard](/images/5-Workshop/5.4-S3-onprem/5.4.2.png)
+![Lambda Dashboard](/images/5-Workshop/5.4-S3-onprem/5.4.3.png)
 
 2. Create a new function using **Author from scratch**.
 3. Configure:
