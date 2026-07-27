@@ -122,7 +122,6 @@ Tìm và chọn các chính sách sau:
 ---
 
 ## Bước 4. Đặt tên Role
-
 Nhập:
 
 | Thuộc tính | Giá trị                   |
